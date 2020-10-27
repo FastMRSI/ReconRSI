@@ -22,8 +22,13 @@ OR
 > rsi_recon MetabFile GreScoutFile brainoTrueFalse savePicsTrueFalse griddingWindow WaterReferenceFile &
 
 -MetabFile is the water-supressed RSI twix file (relative path to cwd OK)
+
 -GreScoutFile is the GRE scout aligned with RSI, twix file. If only a RSI water reference was done but no GRE scout, enter 0 here.
+
 -brainoTrueFalse should be entered 1 for a braino phantom  and 0 otherwise
+
 -savePicsTrueFalse: To generate pics, this should be entered 1. If no connection to the X server, enter 0 here.
+
 -griddingWindow can be 1.5, 2, 2.5, ... or 4
+
 -WaterReferenceFile is the water-reference RSI twix file. If this was not acquired, no entry is required here (or enter 0 here).
